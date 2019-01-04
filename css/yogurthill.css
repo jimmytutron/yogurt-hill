@@ -1,0 +1,267 @@
+@charset "utf-8";
+/*---YOGURT HILL---*/
+
+body {
+	background-image:url(../images/background.png);
+}
+
+.fullWidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+
+
+/*--FONTS--*/
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('Nexa_Free_Light-webfont.eot');
+    src: url('Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nexa_Free_Light-webfont.woff2') format('woff2'),
+         url('Nexa_Free_Light-webfont.woff') format('woff'),
+         url('Nexa_Free_Light-webfont.ttf') format('truetype'),
+         url('Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('Nexa_Free_Bold-webfont.eot');
+    src: url('Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nexa_Free_Bold-webfont.woff2') format('woff2'),
+         url('Nexa_Free_Bold-webfont.woff') format('woff'),
+         url('Nexa_Free_Bold-webfont.ttf') format('truetype'),
+         url('Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nexa_slab_regular_freeregular';
+    src: url('Nexa_Slab_Regular_Free-webfont.eot');
+    src: url('Nexa_Slab_Regular_Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Nexa_Slab_Regular_Free-webfont.woff2') format('woff2'),
+         url('Nexa_Slab_Regular_Free-webfont.woff') format('woff'),
+         url('Nexa_Slab_Regular_Free-webfont.ttf') format('truetype'),
+         url('Nexa_Slab_Regular_Free-webfont.svg#nexa_slab_regular_freeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--END OF FONTS--*/
+
+/*-NAVIGATION CSS-*/
+.fixed {
+	-webkit-transform: translateZ(0);
+}
+.header {
+	font-family: 'nexa_boldregular';
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.top-bar {
+	background: #bf4641 !important;
+}
+.top-bar-section li a:not(.button) {
+    background: #bf4641 !important;   
+	font-family: 'nexa_lightregular';
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+.top-bar-section li a:not(.button):hover {
+    background: #f57871 !important;   
+	font-family: 'nexa_lightregular';
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+.top-bar-section ul li.active > a {
+    background: #f57871 !important;   
+	font-family: 'nexa_lightregular';
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+.top-bar-section ul li.active > a:hover {
+    background: #f57871 !important;
+	font-family: 'nexa_lightregular';   
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+/*--END OF NAV CSS--*/
+
+/*--HEADING & TEXT--*/
+a {color:#fff;}
+a:hover {color: #dfb27f;}
+
+h1 {
+	font-family: 'nexa_lightregular';
+	color: #fff;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'nexa_slab_regular_freeregular';
+	color: #b53e3e;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'nexa_boldregular';
+}
+
+p { font-family: 'nexa_lightregular'; font-size: 1.5em; }
+
+.text { margin-bottom: 15px; }
+
+.phone a {color: #b53e3e;}
+
+#myForm {
+	font-family: 'nexa_boldregular';
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.intro-quote {
+	font-family: 'nexa_boldregular';
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.intro-flavor {
+	font-family: 'nexa_lightregular';
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -25px;
+}
+
+.social-media {
+	font-family: 'nexa_boldregular';
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.copyright {
+	font-family: 'nexa_lightregular';
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -10px;
+}
+
+/*--BACKGROUNDS, DIVs, & CONTENT--*/
+
+/*Adds Drop Shadow*/
+.shadow {box-shadow: 1px 1px 1px #888888;}
+/*Adds small margin*/
+.push {margin-top: 20px;}
+
+/*DIV CONTAINERS*/
+.box {
+	background-image: url(../images/backgroundtile.png);
+	height: 320px;
+    width: 100%;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.social {
+	background-color: #bd6060;
+    min-height: 250px;
+    width: 100%;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.button {background-color: #bd6060;}
+.button:hover {background-color: #dfb27f;}
+
+/*--IMAGES--*/
+
+.circle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;	
+	border-style: solid;
+    border-width: 3px;
+	border-color: #fff;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circleText {
+	line-height: 300px;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'nexa_slab_regular_freeregular';
+	font-size: 30px;
+	color: #fff;
+}
+
+
+@-webkit-keyframes scale{
+  0% {-webkit-transform: scale(0,0);}
+  100% {-webkit-transform: scale(1,1);}
+}
+
+@-moz-keyframes scale{
+	0%{-moz-transform: scale(0,0);}
+	100%{-moz-transform: scale(1,1);}
+}
+
+@keyframes scale{
+	0%{transform: scale(0,0);}
+	100%{transform: scale(1,1);}
+}
+
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/*--COLORS--*/
+.color-cream {background-color: #dfb27f;}
+.color-berry {background-color: #bd6060;}
+.color-cherry {background-color: #db754d;}
+
+/*--MEDIA QUERIES--*/
+/*SMALL*/@media only screen and (max-width: 40em) {
+.intro-quote {font-size: 35px;}
+.intro-flavor {font-size: 25px;margin-top: 0px;}	
+.box {height: 320px;width: 100%;}
+.social-media {font-size: 30px;}
+.copyright {font-size: 20px;}
+.svg {height: 25px;}
+.grow:hover, .grow:focus, .grow:active {  
+	  -webkit-transform: none;
+  		 -moz-transform: none;
+  			  transform: none;
+}
+}
+/*MEDIUM*/@media only screen and (min-width: 50.063em) {
+.intro-quote {font-size: 40px;}
+.intro-flavor {font-size: 30px; margin-top: 0px;}	
+.box {height: 230px; width: 100%;}
+.social-media {font-size:50px;}
+.copyright {font-size: 35px;}
+.svg {height: 30px;}
+}
+/*LARGE*/@media only screen and (min-width: 64.063em) {
+.box {height: 320px; width: 100%;}	
+.intro-quote {font-size: 4em;}
+.intro-flavor {font-size: 2.3em;}	
+.social-media {font-size: 2.5em;}
+.copyright {font-size: 1em;}
+.svg {height: 30px;}
+ }
